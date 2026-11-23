@@ -1,0 +1,5 @@
+ipconfig
+ping google.com
+systeminfo
+hostname
+cls
