@@ -1,1 +1,52 @@
-empty
+1.
+Clear-Host-Clears the screen
+Get-Date-Shows current date and time
+Get-Location-Shows current folder
+Get-ComputerInfo-Shows computer information
+Get-Command-Lists available commands
+Get-Help-Provides command help
+hostname-Shows PC name
+whoami-Shows current username
+winver-Shows Windows version
+exit-Closes PowerShell
+
+2.
+(File & folder manage)
+Get-ChildItem-Lists files and folders
+New-Item test.txt -ItemType File-Creates a file
+New-Item Folder1 -ItemType Directory-Creates a folder
+
+Copy-Item-Copies files
+Move-Item-Moves files
+Rename-Item-Renames files
+Remove-Item
+
+Get-Content test.txt-Reads a text file
+Set-Location Desktop-Opens Desktop directory
+Get-Location-Shows current directory
+
+3.
+(systeminfo
+Shows system details)
+Get-Process=Shows running processes
+Get-Service=Shows Windows services
+Get-ComputerInfo=Shows hardware and OS details
+Get-CimInstance Win32_Processor=Shows processor information
+
+Get-CimInstance Win32_BIOS=Shows BIOS information
+Get-CimInstance Win32_OperatingSystem=Shows OS information
+
+Get-PSDrive=Shows available drives
+
+4
+devmgmt.msc-Opens Device Manager
+Get-PnpDevice-Lists devices
+Get-PnpDevice -PresentOnly-Lists currently connected devices
+
+pnputil /scan-devices-Scans for hardware changes
+Get-CimInstance Win32_VideoController-Shows graphics information
+
+Get-CimInstance Win32_SoundDevice-Shows sound devices
+
+5.
+
